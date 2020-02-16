@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         textViewName = findViewById(R.id.textViewName);
         textViewID = findViewById(R.id.textViewID);
         linearLayout = findViewById(R.id.linearLayout);
-        
+
         textViewName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,5 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 textViewName.setText("Hello World");
             }
         });
+
+        
     }
 }
